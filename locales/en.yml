@@ -1,0 +1,51 @@
+app_name: IceIconSaver
+app_display_name: Ice IconSaver
+title_single_monitor: "%{app} - Single Monitor"
+title_multi_monitor: "%{app} - Multi Monitor: %{count}"
+
+menu_file: "&File"
+menu_load: "&Load"
+menu_save: "&Save"
+menu_exit: "E&xit"
+menu_help: "&Help"
+menu_language: "&Language"
+menu_lang_en: "&English"
+menu_lang_pt: "&Português (Brasil)"
+menu_about: "&About"
+
+btn_load: Load
+btn_save: Save
+btn_ok: OK
+btn_remove_icon: Remove Icon
+btn_cancel: Cancel
+btn_confirm: Confirm
+
+col_name: Name
+col_x: X
+col_y: Y
+col_status: Status
+col_missing: Missing
+
+status_saved: SAVED
+status_updated: UPDATED
+status_missing: Missing
+
+dialog_save_title: Save desktop icons
+dialog_load_title: Load desktop icons
+dialog_save_filter: "Desktop Icons(*.deskicons)"
+dialog_load_filter: "Desktop Icons(*.deskicons)"
+review_save_title: Review icons to save
+review_load_title: Review icons to load
+about_title: About Ice IconSaver
+
+about_name: "Name: Ice IconSaver"
+about_version: "Version: %{version}"
+about_author: "Author: Fabio Lutz (and Grok 4.7)."
+about_more: "More information:"
+
+msg_no_icons_to_save: There are no desktop icons to save.
+msg_all_match: All icons in the file already match the current desktop positions.
+msg_auto_arrange: Auto arrange icons was enabled and has been turned off so the layout can be restored.
+err_open_save_folder: "Failed to open save folder: %{error}"
+err_open_load_folder: "Failed to open load folder: %{error}"
+err_read_path: "Failed to read selected path: %{error}"

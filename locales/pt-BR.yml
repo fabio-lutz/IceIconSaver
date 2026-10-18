@@ -1,0 +1,51 @@
+app_name: IceIconSaver
+app_display_name: Ice IconSaver
+title_single_monitor: "%{app} - Monitor Único"
+title_multi_monitor: "%{app} - Multi Monitor: %{count}"
+
+menu_file: "&Arquivo"
+menu_load: "&Carregar"
+menu_save: "&Salvar"
+menu_exit: "&Sair"
+menu_help: "&Ajuda"
+menu_language: "&Idioma"
+menu_lang_en: "&English"
+menu_lang_pt: "&Português (Brasil)"
+menu_about: "&Sobre"
+
+btn_load: Carregar
+btn_save: Salvar
+btn_ok: OK
+btn_remove_icon: Remover Ícone
+btn_cancel: Cancelar
+btn_confirm: Confirmar
+
+col_name: Nome
+col_x: X
+col_y: Y
+col_status: Status
+col_missing: Ausente
+
+status_saved: SALVO
+status_updated: ATUALIZADO
+status_missing: Ausente
+
+dialog_save_title: Salvar ícones da área de trabalho
+dialog_load_title: Carregar ícones da área de trabalho
+dialog_save_filter: "Ícones da Área de Trabalho(*.deskicons)"
+dialog_load_filter: "Ícones da Área de Trabalho(*.deskicons)"
+review_save_title: Revisar ícones para salvar
+review_load_title: Revisar ícones para carregar
+about_title: Sobre o Ice IconSaver
+
+about_name: "Nome: Ice IconSaver"
+about_version: "Versão: %{version}"
+about_author: "Autor: Fabio Lutz (and Grok 4.7)."
+about_more: "Mais informações:"
+
+msg_no_icons_to_save: Não há ícones da área de trabalho para salvar.
+msg_all_match: Todos os ícones do arquivo já coincidem com as posições atuais da área de trabalho.
+msg_auto_arrange: A organização automática de ícones estava ativada e foi desligada para que o layout possa ser restaurado.
+err_open_save_folder: "Falha ao abrir a pasta de salvamento: %{error}"
+err_open_load_folder: "Falha ao abrir a pasta de carregamento: %{error}"
+err_read_path: "Falha ao ler o caminho selecionado: %{error}"
