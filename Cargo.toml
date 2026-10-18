@@ -1,0 +1,24 @@
+[package]
+name = "IceIconSaver"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+native-windows-gui = { version = "1.0.13", features = ["list-view", "file-dialog", "image-decoder", "menu", "winnls"] }
+native-windows-derive = "1.0.5"
+rust-i18n = "3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+windows = { version = "0.58", features = [
+    "Win32_Foundation",
+    "Win32_System_Com",
+    "Win32_System_Ole",
+    "Win32_UI_Shell",
+    "Win32_UI_Shell_Common",
+    "Win32_UI_WindowsAndMessaging",
+] }
+
+[build-dependencies]
+embed-resource = "3"
+ico = "0.4"
+image = { version = "0.25", default-features = false, features = ["ico"] }

@@ -1,0 +1,10 @@
+# Cargo build output
+/debug/
+/target/
+
+# rustfmt backups
+**/*.rs.bk
+
+# MSVC debug symbols
+*.pdb
+.idea
