@@ -1,4 +1,4 @@
-# IceIconSaver
+# Ice IconSaver
 
 IceIconSaver is a Windows 11+ desktop app that saves and restores the positions of icons on your desktop. It uses the shell folder view (`IFolderView`) rather than list-view messages, so layouts can survive resolution changes, multi-monitor rearrangements, and other desktop refreshes that scramble icon placement.
 
@@ -101,5 +101,7 @@ If `locale` is missing, the app picks Brazilian Portuguese when the Windows user
 | `monitor.ico`        | Source icon (window UI and embedded exe icon)     |
 
 ## License / author
+
+Ice IconSaver is released under the [GNU General Public License v3](LICENSE).
 
 Ice IconSaver — Fabio Lutz. More information: https://diyers.com.br/pt/2026/10/18/ice-iconsaver/
